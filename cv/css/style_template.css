@@ -1,17 +1,20 @@
 /* General Styles */
 body {
     margin: 0;
-    background-color: red;
+    background-color: #C1A57B;
 }
 
 /* Nav Styles */
 nav {
-    background-color: green;
-    height: 100px;
+    background-color: #30475E;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
     }
 
 
 nav p, nav a {
+    margin-top: 0;
 }
 
 nav a {}
@@ -19,26 +22,49 @@ nav a {}
 nav a:hover {}
 
 /* Footer Styles */
-footer {}
+footer {
+    background-color: #222831;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
 
-footer a {}
+footer a {
+    color: #ECECEC;
+    padding-right: 2%;
+    padding-left: 2%;
+}
 
-footer a:hover {}
+footer a:hover {
+    color: #CCCCCC;
+}
 
 /* Splash Section */
-.splash {}
+.splash {
+    background-color: #222831;
+}
 
-.splash h1 {}
+.splash h1 {
+    color: #CCCCCC;
+}
 
-.splash img {}
+.splash img {
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
-.splash p {}
+.splash p {
+    color: #CCCCCC;
+    font-weight: bold;
+}
 
 /* Horizontal Rules */
 hr {}
 
 /* Sections */
-section {}
+section {
+    border: 2px solid black;
+}
 
 /* Section Headings */
 section h2 {}
@@ -58,13 +84,24 @@ dl dt{}
 dl dd{}
 
 /* Project Section */
-.three-col {}
+.three-col {
+    display: grid;
+}
 
-.card {}
+.card {
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+    display: flex;
+    margin: 5%;
+}
 
-.card img {}
+.card img {
+    border: 2px solid black;
+}
 
-.card h3 {}
+.card h3 {
+    text-align: center;
+}
 
 /* Contact Page Styles */
 .one-col {}
