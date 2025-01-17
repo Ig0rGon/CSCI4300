@@ -15,9 +15,11 @@ nav {
 
 nav p, nav a {
     margin-top: 0;
+    color: #ECECEC;
 }
 
-nav a {}
+nav a {
+}
 
 nav a:hover {}
 
