@@ -1,10 +1,11 @@
-/* General Styles */
+/* General Styles
+
 body {
     margin: 0;
     background-color: #C1A57B;
 }
 
-/* Nav Styles */
+// Nav Styles
 nav {
     background-color: #30475E;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -23,7 +24,7 @@ nav a {
 
 nav a:hover {}
 
-/* Footer Styles */
+// Footer Styles
 footer {
     background-color: #222831;
     color: white;
@@ -41,7 +42,7 @@ footer a:hover {
     color: #CCCCCC;
 }
 
-/* Splash Section */
+// Splash Section
 .splash {
     background-color: #222831;
 }
@@ -60,32 +61,32 @@ footer a:hover {
     font-weight: bold;
 }
 
-/* Horizontal Rules */
+// Horizontal Rules
 hr {}
 
-/* Sections */
+// Sections 
 section {
     border: 2px solid black;
 }
 
-/* Section Headings */
+// Section Headings
 section h2 {}
 
-/* Paragraph Styles */
+// Paragraph Styles 
 section p {}
 
-/* link styles */
+// link styles
 section a {}
 section a:hover {}
 
-/* List Styles */
+// List Styles
 ul {}
 
 dl {}
 dl dt{}
 dl dd{}
 
-/* Project Section */
+// Project Section
 .three-col {
     display: grid;
 }
@@ -105,7 +106,7 @@ dl dd{}
     text-align: center;
 }
 
-/* Contact Page Styles */
+// Contact Page Styles
 .one-col {}
 
 form {}
@@ -117,3 +118,5 @@ form input:focus, form textarea:focus {}
 form button {}
 
 form button:hover {}
+
+*/
