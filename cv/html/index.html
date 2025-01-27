@@ -16,30 +16,37 @@
     </nav>
 
     <section class="splash">
-        <h1>Igor Rodrigues Gonçalves</h1>
+        <h1>Igor Gonçalves</h1>
         <img src="/cv/images/headshot.jpeg" alt="Igor's Professional Head Shot" width="200" height="200">
-        <p>Athens, GA, United States &bull; (678)-696-9908 &bull; ir40634@uga.edu</p>
+        <p class="splash-address"><i class="fa-solid fa-location-dot"></i>Athens, GA, United States &bull; (678)-696-9908 &bull; ir40634@uga.edu</p>
 
-        <p>Computer Science Student at the University of Georgia. 
-        I have a particular interest in Operating Systems and Cybersecurity.</p>
+        <p class="splash-bio">Computer Science Student at the University of Georgia with  
+        a particular interest in Operating Systems and Cybersecurity.</p>
     </section>
 
     <hr>
 
-    <section>
+    <section class="education">
         <h2>Education</h2>
-        <p>
-            University of Georgia, Franklin College of Arts and Sciences, Athens, GA, B.S. in Computer Science
-            May 2026 GPA: 3.42/4.00 Courses: Introduction to Computing and Programming, Software Development, 
-            Systems Programming, Discrete Mathematics, Databases.
-        </p>
+        <p>University of Georgia, Franklin College of Arts and Sciences, Athens, GA </p>
+        <p><em>B.S. in Computer Science </em></p>
+        <p>May 2026  |  GPA: 3.42/4.00</p>
+        <h4>Courses:</h4>
+        <ul>
+            <li>Introduction to Computing and Programming</li>
+            <li>Software Development</li>
+            <li>Systems Programming</li>
+            <li>Databases</li>
+
+        </ul>
     </section>
 
-    <section>
+    <section class="honors">
         <h2>Honors and Awards</h2>
         <dl>
             <dt>Dean's List</dt>
-            <dd>Fall 2022, Spring 2023, 2024</dd>
+            <dd>Fall 2022, 2024</dd>
+            <dd>Spring 2023, 2024</dd>
         </dl>
         <dl>
             <dt>Outstanding Delegation</dt>
@@ -49,50 +56,105 @@
 
     <section>
         <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Java, Python, C, HTML, CSS, SQL</li>
-            <li>Frameworks: Spring</li>
-            <li>Databases: MySQL</li>
-            <li>Software: Git, VSCode, IntelliJ, Xcode, Emacs, VMWare</li>
-        </ul>
+        <div class="skills-card-container">
+            <div class="skills-card">
+                <h4 class="skills-card-title">Programming</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+    
+            <div class="skills-card">
+                <h4 class="skills-card-title">Framework</h4>
+                <ul>
+                    <li>Spring Boot</li>
+                    <li>React.js</li>
+                </ul>
+            </div>
+    
+            <div class="skills-card">
+                <h4 class="skills-card-title">Software</h4>
+                <ul>
+                    <li>Git / Github</li>
+                    <li>VS Code</li>
+                    <li>IntelliJ</li>
+                    <li>Unix/Linux</li>
+                    <li>Emacs</li>
+                    <li>VMWare</li></ul>
+                </ul>
+            </div>
+                
+            <div class="skills-card">
+                <h4 class="skills-card-title">Cloud Platforms:</h4>
+                <p>AWS (S3, Route 53, CloudFront)</p>
+            </div>
+        </div>
     </section>
 
     <section>
         <h2>Leadership and Experience</h2>
-        <dl>
-            <a href="https://www.metronetwork.com.br"><dt>Analyst and Developer of Systems and Databases Intern, SC, Brazil</dt></a>
-            <dd>05/2023 - 07/2023</dd>
-        </dl>
-        <dl>
-            <a href="https://ugascs.org/"><dt>Officer of Corporate Relations for Society for Cybersecurity, Athens, GA</dt></a>
-            <dd>01/2025 - Present</dd>
-        </dl>
-        <dl>
-            <dt>DevDogs & Google Developer Groups on Campus, Athens, GA</dt>
-            <dd>08/2024 - Present</dd>
-        </dl>
-        <dl>
-            <dt>Game Builders Club, Athens, GA</dt>
-            <dd>08/2024 - 11/2024</dd>
-        </dl>
+        <div class="experience-card">
+            <dl>
+                <a href="https://www.metronetwork.com.br"><dt>Analyst and Developer of Systems and Databases Intern, SC, Brazil</dt></a>
+                <dd>05/2023 - 07/2023</dd>
+            </dl>
+        </div>
+        <div class="experience-card">
+            <dl>
+                <a href="https://ugascs.org/"><dt>Officer of Corporate Relations for Society for Cybersecurity, Athens, GA</dt></a>
+                <dd>01/2025 - Present</dd>
+            </dl>
+        </div>
+        <div class="experience-card">
+            <dl>
+                <dt>DevDogs & Google Developer Groups on Campus, Athens, GA</dt>
+                <dd>08/2024 - Present</dd>
+            </dl>
+        </div>
+        <div class="experience-card">
+            <dl>
+                <dt>Game Builders Club, Athens, GA</dt>
+                <dd>08/2024 - 11/2024</dd>
+            </dl>
+        </div>
     </section>
 
     <section>
+        <h2>Projects</h2>
         <div class="three-col">
-            <h2>Projects</h2>
 
             <div class="card">
-                <img src="/cv/images/headshot.jpeg" alt="temp image" width="200px", height="200px">
+                <img src="/cv/images/LAM.png" alt="temp image" width="200px", height="200px">
                 <h3>3D First Person Unity Game</h3>
+                <hr>
                 <ul>
                     <li>Collaborated with a small team of developers to design and implement a game callled <b>Leave A Message</b> where the first person takes the role of a radio dispatcher sending messages near the end of the world.</li>
                     <li>Responsible for UI/UX desings, task development, and core game mechanics.</li>
                 </ul>
+                <a href="https://serenityrosestrikes.itch.io/leave-a-message">Download Here!</a>
             </div>
 
             <div class="card">
-                <img src="/cv/images/headshot.jpeg" alt="temp image" width="200px", height="200px">
+                <img src="/cv/images/IDAN_logo copy.webp" alt="temp image">
+                <h3>Photo Display Website</h3>
+                <hr>
+                <ul>
+                    <li>Designed a simple website with a fellowe student displaying photos of UGA's campus in winter.</li>
+                    <li>Use complex HTML and CSS formatings to ensure a pleasent and consistant display.</li>
+                    <li>Uploaded the site using Amazon Web Services.</li>
+                </ul>
+                <a href="http://idan-ugaphotos.com/">Check It Out!</a>
+            </div>
+
+            <div class="card">
+                <img src="/cv/images/multi.webp" alt="temp image" width="200px", height="200px">
                 <h3>Multithreaded Program</h3>
+                <hr>
             <ul>
                 <li>Designed a complex algorithm which the user can choose to user 1, 2, or 3 threads at a time.</li>
                 <li>Threads would count inputted number in diagnoal rows within large arrays.</li>
@@ -101,8 +163,9 @@
             </div>
 
             <div class="card">
-                <img src="/cv/images/headshot.jpeg" alt="temp image" width="200px", height="200px">
+                <img src="/cv/images/paris2024.avif" alt="temp image" width="200px", height="200px">
                 <h3>Paris 2024 Olympics Database</h3>
+                <hr>
                 <ul>
                     <li>Designed a functional database for the Paris 2024 summer olympics including athelets, venues, staff, sports, medals, and etc.</li>
                     <li>Implemented the database in both Microsoft Excel and MySQL, and created several queries to pin point key information over the data.</li>
@@ -114,10 +177,10 @@
     </section>
 
     <footer>
-        @ <a href="https://linkedin.com/in/igorgon">Igor Rodrigues Gonçalves</a>
-        &bull;
-        <a href="https://linkedin.com/in/igorgon "><i class="fa-brands fa-linkedin"></i></a>
         <i class="fa-regular fa-copyright"></i>
+        &bull;
+        @ <a href="https://linkedin.com/in/igorgon">Igor Rodrigues Gonçalves</a>
+        <a href="https://linkedin.com/in/igorgon "><i class="fa-brands fa-linkedin"></i></a>
     </footer>
 
 </body>
