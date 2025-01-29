@@ -1,11 +1,13 @@
 /* General Styles */
 body {
     margin: 0;
+    background-color: #e7e8df;
+    color: #7E4B3C;
 }
 
 /* Nav Styles */
 nav {
-    background-color: #f3f3f3;
+    background-color: #267a26;  /* Forest Green for navbar */
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
@@ -16,21 +18,22 @@ nav {
 nav p, nav a {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.2em;
-    color: darkred;
+    color: #FFFFFF;
 }
 
 nav a {
     text-decoration: none;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 nav a:hover {
     font-weight: bold;
+    color: #E27D60;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #f3f3f3;
+    background-color: #E97451;  /* Burnt Sienna footer */
+    color: #FFFFFF;
     padding: 10px;
 
     display: flex;
@@ -86,8 +89,9 @@ hr {
 /* Sections */
 section {
     padding: 20px;
-    margin: 20px;
-    border: solid 1px #ccc;
+    margin: 20px 10%;
+    border: solid 1px rgb(68, 17, 17);
+    background-color: #e8dfcf;
 }
 
 /* Section Headings */
@@ -129,7 +133,7 @@ dl dd{}
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));; /* 3 equal columns */
     gap: 20px; /* Space between columns */
-    padding: 20px; /* Optional padding */
+    padding: 20px;
 }
 
 .card {
@@ -141,7 +145,7 @@ dl dd{}
 }
 
 .card:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
     transition: transform 0.5s ease; /* Smooth transition */
 }
 
@@ -161,7 +165,7 @@ dl dd{}
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     width: 60%; /* Adjust width as needed */
-    margin: 5% auto 35%; /* Center horizontally */
+    margin: 5% auto 33%; /* Center horizontally */
     gap: 15px; /* Space between elements */
     padding: 20px;
     background: #f4f4f4; /* Light gray background */
