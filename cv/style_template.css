@@ -1,0 +1,72 @@
+/* General Styles */
+body {}
+
+/* Nav Styles */
+nav {}
+
+nav p, nav a {}
+
+nav a {}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {}
+
+footer a {}
+
+footer a:hover {}
+
+/* Splash Section */
+.splash {}
+
+.splash h1 {}
+
+.splash img {}
+
+.splash p {}
+
+/* Horizontal Rules */
+hr {}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {}
+
+/* Paragraph Styles */
+section p {}
+
+/* link styles */
+section a {}
+section a:hover {}
+
+/* List Styles */
+ul {}
+
+dl {}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {}
+
+.card {}
+
+.card img {}
+
+.card h3 {}
+
+/* Contact Page Styles */
+.one-col {}
+
+form {}
+
+form input, form textarea {}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {}
