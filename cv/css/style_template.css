@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #f3f3f3;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav p, nav a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+    color: darkred;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f3f3f3;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+    color: darkred;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+/* Splash Section */
+.splash {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.splash h1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2em;
+    color: #8B0000;
+    text-align: center;
+}
+
+.splash img {
+    border: solid 3px black;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.splash p {
+    font-family: 'Helvetica', sans-serif;
+    color: #8B0000;
+}
+
+/* Horizontal Rules */
+hr {
+    border: none;
+    height: 2px;
+    background: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #ccc;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5em;
+    color: #8B0000;
+    text-align: center;
+}
+
+/* Paragraph Styles */
+section p {
+    text-align: center;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    color: #8B0000;
+}
+section a:hover {
+    font-weight: bold;
+}
+
+/* List Styles */
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+dl {
+    text-align: center;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));; /* 3 equal columns */
+    gap: 20px; /* Space between columns */
+    padding: 20px; /* Optional padding */
+}
+
+.card {
+    background: #f4f4f4; /* Light gray background */
+    padding: 20px; 
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /* Shadow effect */
+    text-align: center; /* Center text */
+}
+
+.card:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.card img {
+    border: 1px solid black; /* Border around images */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.card h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+    color: #8B0000;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    width: 60%; /* Adjust width as needed */
+    margin: 5% auto 35%; /* Center horizontally */
+    gap: 15px; /* Space between elements */
+    padding: 20px;
+    background: #f4f4f4; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+form {
+    width: 300px; /* Adjust width as needed */
+    margin: 50px; /* Center horizontally */
+    padding: 20px;
+    background: #f4f4f4; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between inputs */
+  }
+  
+  /* Style input fields and textarea */
+  form input, 
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Focus state for input fields and textarea */
+  form input:focus, 
+  form textarea:focus {
+    border-color: darkred; /* Highlight with blue */
+    outline: none;
+  }
+  
+  /* Style the submit button */
+  form button {
+    display: block;
+    margin: auto;
+    background: darkred;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  form button:hover {
+    font-weight: bold;
+  }
