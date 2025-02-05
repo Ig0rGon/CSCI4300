@@ -1,5 +1,6 @@
 // JavaScript Array Methods Homework
 
+// Given Super Hero Data
 let superHeroes = 
 [
     {name: "Superman", power: 100, universe: "DC"},
@@ -16,6 +17,7 @@ let superHeroes =
     {name: "Thor", power: 95, universe: "Marvel"},
 ]
 
+// Adds "team" property to each hero
 superHeroes.forEach(hero => {
     if (hero.universe == "DC") {
         hero.team = "Justice League"
@@ -24,6 +26,7 @@ superHeroes.forEach(hero => {
     }
 });
 
+// Ranks Super Heros based on power level
 let rankedSuperHeroes = superHeroes.map( rank => {
     if (rank.power > 90) {
         hero.rank = "Top Tier"
