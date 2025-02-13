@@ -1,3 +1,5 @@
+// Febuary 13th, 2024
+
 function addHero() {
     const inputField = document.querySelector("#heroInput");
     const heroName = inputField.value;
