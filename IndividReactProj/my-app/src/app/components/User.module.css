@@ -1,0 +1,40 @@
+.userItem a:hover,
+.userItem a:active {
+  background: #ffd900;
+}
+.userItem { display: flex;
+    padding: 12px;}
+
+.userContent {
+  padding: 0;
+}
+
+.userImg {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  border-radius: 25%;
+}
+
+
+.userInfo h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #52329c;
+  display: inline;
+}
+.userInfo h3 {
+    margin: 0.2em 0;
+}
+
+.userItem:hover h2,
+.userItem:active h2,
+.userItem:hover h3,
+.userItem:active h3 {
+  color: #292929;
+}
+
+.userItemInfo h3 {
+  margin: 0;
+}
